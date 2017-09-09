@@ -254,10 +254,60 @@ section .navbar .navbar-collapse {
   }
 }
 
+iframe {
+  display: block;
+  height: 681px;
+  margin: auto;
+  width: 1210px;
+}
 
-.master {
-  padding-left: 18px;
-  padding-right: 18px;
+@media (max-width: 1310px) {
+  iframe {
+    height: 641px;
+    width: 1140px;
+  }
+}
+
+@media (max-width: 1245px) {
+  iframe {
+    height: 619px;
+    width: 1100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  iframe {
+    height: 563px;
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1100px) {
+  iframe {
+    height: 506px;
+    width: 900px;
+  }
+}
+
+@media (max-width: 1000px) {
+  iframe {
+    height: 405px;
+    width: 720px;
+  }
+}
+
+@media (max-width: 820px) {
+  iframe {
+    height: 360px;
+    width: 640px;
+  }
+}
+
+@media (max-width: 767px) {
+  iframe {
+    height: 240px;
+    width: 80%;
+  }
 }
 
 section .content {
